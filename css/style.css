@@ -26,6 +26,14 @@ hr {
     color: #132a3d;
 }
 
+.panel-info-titles {
+    font-weight: bold;
+}
+
+.card-footer {
+    font-size: x-small;
+}
+
 .margin-top-40 {
     margin-top: 40px;
 }

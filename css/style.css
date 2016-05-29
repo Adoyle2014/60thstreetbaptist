@@ -17,6 +17,11 @@ hr {
     border-top: 2px solid rgba(255,255,255,.5);
 }
 
+.btn-primary-outline {
+    color: rgba(255,255,255,.5);
+
+}
+
 .page-content {
     margin-top: 60px;
     padding-top: 20px;
@@ -59,51 +64,8 @@ li.nav-item a.nav-link {
 
 
 
-/* Carousel*/
+/* Prayer */
 
-.carousel,
-.carousel-item,
-.active {
-    height: 100%;
+.form-input-data {
+    color: rgba(255,255,255,.5);
 }
-
-.carousel-inner {
-    height: 100%;
-}
-
-.carousel-item:nth-child(1) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.carousel-item:nth-child(2) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.carousel-item:nth-child(3) {
-    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*Caption*/
-
-.flex-center {
-    color: #fff;
-}
-
-@media (min-width: 776px) {
-    .carousel .view ul li {
-        display: inline;
-    }
-    .carousel .view .full-bg-img ul li .flex-item {
-        margin-bottom: 1.5rem;
-    }
-}
-
-
-/* Archive */
-

@@ -74,10 +74,10 @@
     <h1>Prayer Requests</h1>
     <hr>
 
-    <div class="row mdb-color darken-1 p-t-1 z.depth-3">
+    <div class="row mdb-color darken-1 p-t-1 z.depth-3 hoverable">
         <div class="col-md-3">
             <!--Panel-->
-            <div class="card text-xs-center hoverable">
+            <div class="card text-xs-center">
                 <div class="card-block">
                     <h4 class="card-title">A Prayer for</h4>
                     <h4 class="card-title">Brother Thomas</h4>
@@ -90,7 +90,7 @@
         </div><!--/.col-md-3-->
         <div class="col-md-9">
             <!--Panel-->
-            <div class="card text-xs-center hoverable">
+            <div class="card text-xs-center">
                 <div class="card-block">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
@@ -101,10 +101,10 @@
 
     <hr>
 
-    <div class="row mdb-color darken-1 p-t-1 z.depth-3">
+    <div class="row mdb-color darken-1 p-t-1 z.depth-5 hoverable">
         <div class="col-md-3">
             <!--Panel-->
-            <div class="card text-xs-center hoverable">
+            <div class="card text-xs-center">
                 <div class="card-block">
                     <h4 class="card-title">A Prayer for</h4>
                     <h4 class="card-title">Brother Thomas</h4>
@@ -117,7 +117,7 @@
         </div><!--/.col-md-3-->
         <div class="col-md-9">
             <!--Panel-->
-            <div class="card text-xs-center hoverable">
+            <div class="card text-xs-center">
                 <div class="card-block">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
@@ -127,6 +127,52 @@
     </div><!--/.row-->
 
     <hr>
+
+    <h3 class="text-xs-center margin-top-40">Request A Prayer</h3>
+
+
+
+    <div class="row margin-top-40">
+        <div class="col-md-4">
+            <div class="md-form">
+                <i class="fa fa-user prefix"></i>
+                <input type="text" id="yourName" class="form-control">
+                <label for="yourName">Your Name</label>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form">
+                <i class="fa fa-envelope prefix"></i>
+                <input type="text" id="yourEmail" class="form-control">
+                <label for="yourEmail">Your Email</label>
+            </div>
+            <p class="text-xs-center small form-input-data">Your email will not be displayed publicly.</p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form">
+                <i class="fa fa-heart prefix"></i>
+                <input type="text" id="prayForWho" class="form-control">
+                <label for="prayForWho">Who To Pray For</label>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="md-form">
+            <i class="fa fa-pencil prefix"></i>
+            <textarea type="text" id="yourPrayer" class="md-textarea"></textarea>
+            <label for="yourPrayer">Your Request</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-form text-xs-center">
+            <button type="submit" class="btn btn-primary-outline z-depth-4 waves-effect">Submit Prayer</button>
+
+        </div>
+    </div>
+
 
 
 </div><!--/.Container-->

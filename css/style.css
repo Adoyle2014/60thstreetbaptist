@@ -8,6 +8,30 @@ body {
     background: #132a3d;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: rgba(255,255,255,.5);
+}
+
+hr {
+    height: 2px;
+    border-top: 2px solid rgba(255,255,255,.5);
+}
+
+.page-content {
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.card-title {
+    color: #132a3d;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/* Navigation */
+
 li.nav-item a.nav-link {
     border-radius: 8px;
 }
@@ -71,3 +95,7 @@ li.nav-item a.nav-link {
         margin-bottom: 1.5rem;
     }
 }
+
+
+/* Archive */
+

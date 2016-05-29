@@ -1,3 +1,20 @@
 body {
     background: #132a3d;
 }
+
+li.nav-item a.nav-link {
+    border-radius: 8px;
+}
+
+.dropdown-menu {
+    background: none;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: rgba(255,255,255,.5);
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background: none;
+    color: rgba(255,255,255,.75);
+}

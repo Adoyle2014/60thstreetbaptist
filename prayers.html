@@ -191,66 +191,52 @@
     <hr>
 
 
-    <div class="row prayer-card text-xs-center">
+    <div class="row">
         <div class="col-md-12">
             <div class="row margin-top-40">
-                <div class="col-sm-12">
-                    <h3>Request A Prayer</h3>
+                <div class="col-sm-12 text-xs-center">
+                    <h3 class="font-weight-bold">Request A Prayer</h3>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row prayer-card">
+        <div class="col-md-12">
+            <form>
+                <div class="row p-t-1">
+                    <div class="col-md-4 md-form">
+                        <i class="fa fa-user prefix white-text"></i>
+                        <input type="text" id="yourName" class="form-control white-text">
+                        <label for="yourName" class="white-text">Your Name</label>
+                    </div>
 
-            <div class="row margin-top-40">
-                <div class="col-md-4">
-                    <div class="md-form">
-                        <i class="fa fa-user prefix"></i>
-                        <input type="text" id="yourName" class="form-control">
-                        <label for="yourName">Your Name</label>
+                    <div class="col-md-4 md-form">
+                        <i class="fa fa-envelope prefix white-text"></i>
+                        <input type="text" id="yourEmail" class="form-control white-text">
+                        <label for="yourEmail" class="white-text">Your Email</label>
+                        <p class="text-xs-center white-text small form-input-data">Your email will not be displayed publicly.</p>
+                    </div>
+
+                    <div class="col-md-4 md-form">
+                        <i class="fa fa-heart prefix white-text"></i>
+                        <input type="text" id="prayForWho" class="form-control white-text">
+                        <label for="prayForWho" class="white-text">Who To Pray For</label>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="md-form">
-                        <i class="fa fa-envelope prefix"></i>
-                        <input type="text" id="yourEmail" class="form-control">
-                        <label for="yourEmail">Your Email</label>
-                    </div>
-                    <p class="text-xs-center small form-input-data">Your email will not be displayed publicly.</p>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="md-form">
-                        <i class="fa fa-heart prefix"></i>
-                        <input type="text" id="prayForWho" class="form-control">
-                        <label for="prayForWho">Who To Pray For</label>
+                <div class="row">
+                    <div class="col-md-12 md-form">
+                        <i class="fa fa-pencil prefix white-text"></i>
+                        <textarea type="text" id="yourPrayer" class="md-textarea white-text"></textarea>
+                        <label for="yourPrayer" class="white-text">Your Request</label>
                     </div>
                 </div>
-            </div>
-
-
-
-                    <div class="row">
-                        <div class="md-form">
-                            <i class="fa fa-pencil prefix"></i>
-                            <textarea type="text" id="yourPrayer" class="md-textarea"></textarea>
-                            <label for="yourPrayer">Your Request</label>
-                        </div>
+                <div class="row">
+                    <div class="md-form text-xs-center">
+                        <button type="submit" class="btn btn-primary-outline z-depth-4 waves-effect">Submit Prayer</button>
                     </div>
-                    <div class="row">
-                        <div class="md-form text-xs-center">
-                            <button type="submit" class="btn btn-primary-outline z-depth-4 waves-effect">Submit Prayer</button>
-
-                        </div>
-                    </div>
-
-
-
                 </div>
-
-
-
-
-            </div>
-            </div>
+            </form>
+        </div>
     </div>
 
 

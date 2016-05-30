@@ -20,6 +20,7 @@
 
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/prayers.css" rel="stylesheet">
 
 </head>
 
@@ -45,16 +46,16 @@
                 <li class="nav-item">
                     <a class="nav-link p-x-2" href="index.html">Home</a>
                 </li>
-                <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle p-x-2" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Dropdown <span class="sr-only">(current)</span></a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle p-x-2" id="ministryMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Ministry <span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu" aria-labelledby="ministryMenu">
+                        <a class="dropdown-item" href="#">Youth</a>
+                        <a class="dropdown-item" href="#">Music</a>
+                        <a class="dropdown-item" href="#">Transportation</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link p-x-2" href="prayers.html">Prayers</a>
+                    <a class="nav-link p-x-2 active" href="prayers.html">Prayers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link p-x-2" href="sermanArchive.html">Watch</a>
@@ -72,9 +73,13 @@
 
 <div class="container page-content">
     <h1>Prayer Requests</h1>
+    <a class="btn btn-primary-outline z-depth-4 waves-effect pull-right" href="#request-prayer">Request a Prayer</a>
+
+
+    <div class="clearfix"></div>
     <hr>
 
-    <div class="row mdb-color darken-1 p-t-1 z.depth-3 hoverable">
+    <div class="row p-t-1 hoverable prayer-card">
         <div class="col-md-3">
             <!--Panel-->
             <div class="card text-xs-center">
@@ -101,7 +106,34 @@
 
     <hr>
 
-    <div class="row mdb-color darken-1 p-t-1 z.depth-5 hoverable">
+    <div class="row p-t-1 z.depth-5 hoverable prayer-card">
+        <div class="col-md-3">
+            <!--Panel-->
+            <div class="card text-xs-center">
+                <div class="card-block">
+                    <h4 class="card-title">A Prayer for</h4>
+                    <h4 class="card-title">Brother Thomas</h4>
+                </div>
+                <div class="card-footer text-muted">
+                    <p><span class="panel-info-titles">Posted:</span> 2 days ago <span class="panel-info-titles"> By:</span> Sister Catherine</p>
+                </div>
+            </div>
+            <!--/.Panel-->
+        </div><!--/.col-md-3-->
+        <div class="col-md-9">
+            <!--Panel-->
+            <div class="card text-xs-center">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+            </div>
+            <!--/.Panel-->
+        </div><!--/.col-md-9-->
+    </div><!--/.row-->
+
+    <hr>
+
+    <div class="row p-t-1 z.depth-3 hoverable prayer-card">
         <div class="col-md-3">
             <!--Panel-->
             <div class="card text-xs-center">
@@ -128,50 +160,99 @@
 
     <hr>
 
-    <h3 class="text-xs-center margin-top-40">Request A Prayer</h3>
-
-
-
-    <div class="row margin-top-40">
-        <div class="col-md-4">
-            <div class="md-form">
-                <i class="fa fa-user prefix"></i>
-                <input type="text" id="yourName" class="form-control">
-                <label for="yourName">Your Name</label>
+    <div class="row p-t-1 hoverable prayer-card">
+        <div class="col-md-3">
+            <!--Panel-->
+            <div class="card text-xs-center">
+                <div class="card-block">
+                    <h4 class="card-title">A Prayer for</h4>
+                    <h4 class="card-title">Brother Thomas</h4>
+                </div>
+                <div class="card-footer text-muted">
+                    <p><span class="panel-info-titles">Posted:</span> 2 days ago <span class="panel-info-titles"> By:</span> Sister Catherine</p>
+                </div>
             </div>
-        </div>
+            <!--/.Panel-->
+        </div><!--/.col-md-3-->
+        <div class="col-md-9">
+            <a id="request-prayer"></a>
+            <!--Panel-->
+            <div class="card text-xs-center">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
 
-        <div class="col-md-4">
-            <div class="md-form">
-                <i class="fa fa-envelope prefix"></i>
-                <input type="text" id="yourEmail" class="form-control">
-                <label for="yourEmail">Your Email</label>
+                </div>
             </div>
-            <p class="text-xs-center small form-input-data">Your email will not be displayed publicly.</p>
-        </div>
 
-        <div class="col-md-4">
-            <div class="md-form">
-                <i class="fa fa-heart prefix"></i>
-                <input type="text" id="prayForWho" class="form-control">
-                <label for="prayForWho">Who To Pray For</label>
+            <!--/.Panel-->
+        </div><!--/.col-md-9-->
+    </div><!--/.row-->
+
+    <hr>
+
+
+    <div class="row prayer-card text-xs-center">
+        <div class="col-md-12">
+            <div class="row margin-top-40">
+                <div class="col-sm-12">
+                    <h3>Request A Prayer</h3>
+                </div>
             </div>
-        </div>
 
-    </div>
-    <div class="row">
-        <div class="md-form">
-            <i class="fa fa-pencil prefix"></i>
-            <textarea type="text" id="yourPrayer" class="md-textarea"></textarea>
-            <label for="yourPrayer">Your Request</label>
-        </div>
-    </div>
-    <div class="row">
-        <div class="md-form text-xs-center">
-            <button type="submit" class="btn btn-primary-outline z-depth-4 waves-effect">Submit Prayer</button>
+            <div class="row margin-top-40">
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <i class="fa fa-user prefix"></i>
+                        <input type="text" id="yourName" class="form-control">
+                        <label for="yourName">Your Name</label>
+                    </div>
+                </div>
 
-        </div>
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="yourEmail" class="form-control">
+                        <label for="yourEmail">Your Email</label>
+                    </div>
+                    <p class="text-xs-center small form-input-data">Your email will not be displayed publicly.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <i class="fa fa-heart prefix"></i>
+                        <input type="text" id="prayForWho" class="form-control">
+                        <label for="prayForWho">Who To Pray For</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+                    <div class="row">
+                        <div class="md-form">
+                            <i class="fa fa-pencil prefix"></i>
+                            <textarea type="text" id="yourPrayer" class="md-textarea"></textarea>
+                            <label for="yourPrayer">Your Request</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="md-form text-xs-center">
+                            <button type="submit" class="btn btn-primary-outline z-depth-4 waves-effect">Submit Prayer</button>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+            </div>
     </div>
+
 
 
 

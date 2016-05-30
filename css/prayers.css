@@ -1,0 +1,19 @@
+body {
+    background: url("../img/cross_horizon_hills_sky-3840x2160.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.prayer-card {
+    background-color: rgba(84, 110, 122, .4);
+}
+
+
+.form-input-data {
+    color: rgba(255,255,255,.5);
+}
+

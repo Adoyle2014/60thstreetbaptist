@@ -19,6 +19,7 @@ hr {
 
 .btn-primary-outline {
     color: rgba(255,255,255,.5);
+    border-radius: 8px;
 
 }
 
@@ -64,8 +65,4 @@ li.nav-item a.nav-link {
 
 
 
-/* Prayer */
 
-.form-input-data {
-    color: rgba(255,255,255,.5);
-}

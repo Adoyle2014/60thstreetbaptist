@@ -34,6 +34,16 @@
     color: #fff;
 }
 
+.carousel-title {
+    color: #fff;
+    text-shadow: 0 5px 3px #222222;
+}
+
+.carousel-body-text {
+    width: 80%;
+
+}
+
 @media (min-width: 776px) {
     .carousel .view ul li {
         display: inline;

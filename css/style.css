@@ -48,6 +48,14 @@ hr {
     margin-top: 80px;
 }
 
+.btn-primary-outline {
+    color: #fff;
+}
+
+.btn-primary-outline:hover {
+    color: #ccc;
+}
+
 /* Navigation */
 
 li.nav-item a.nav-link {

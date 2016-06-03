@@ -64,7 +64,8 @@ li.nav-item a.nav-link {
 }
 
 .dropdown-menu {
-    background: none;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
 }
 
 .dropdown-menu a.dropdown-item {
@@ -74,6 +75,15 @@ li.nav-item a.nav-link {
 .dropdown-menu a.dropdown-item:hover {
     background: none;
     color: rgba(255,255,255,.75);
+}
+
+#collapseEx {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.navbar-scroll {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 

@@ -17,13 +17,13 @@
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url("../img/Cross-Easter.jpg");
+    background-image: url("../img/cross.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url("../img/cross-tombstone-death.jpg");
+    background-image: url("../img/cross.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

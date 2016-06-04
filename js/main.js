@@ -4,9 +4,31 @@
 
 $(document).ready(function() {
     navbarChangeOnScroll();
-
+    smoothScroll();
 
 });
+
+
+var smoothScroll = function() {
+    $('a[href*="#"]')
+        .bind('click', function(event) {
+            var hash = this.hash.replace(/[#<>]/g, '')
+
+            if (this.pathname === location.pathname) {
+                event.preventDefault();
+            }
+
+            if (hash) {
+                location.hash = '#/' + hash;
+            }
+        });
+
+    $(window).bind('hashchange', function(event) {
+        $.smoothScroll({
+            scrollTarget: '#' + location.hash.replace(/^\#\/?/, '')
+        });
+    });
+};
 
 var navbarChangeOnScroll = function() {
 

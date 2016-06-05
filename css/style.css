@@ -107,8 +107,8 @@ li.nav-item a.nav-link {
 /* Parralax */
 
 .content-space {
-    padding: 0px;
-    margin-bottom: 0px;
+    padding: 0;
+    margin-bottom: 0;
     color: inherit;
     -webkit-background-size: cover;
     -moz-background-size: cover;

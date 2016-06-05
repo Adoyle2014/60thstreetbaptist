@@ -6,11 +6,17 @@ body,
 }
 
 body {
-    background: #c4c4c4;
+    background: #0b0b0b;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: rgba(255,255,255,.9);
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ebebeb;
+    border-radius: 8px;
 }
 
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
@@ -47,6 +53,10 @@ hr {
 
 .card-footer {
     font-size: x-small;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }
 
 .margin-top-40 {
@@ -106,6 +116,10 @@ li.nav-item a.nav-link {
 
 /* Parralax */
 
+.content-block h1 {
+    color: #ebebeb;
+}
+
 .content-space {
     padding: 0;
     margin-bottom: 0;
@@ -119,19 +133,16 @@ li.nav-item a.nav-link {
 }
 
 .content-space p {
-    color: #fff;
+    color: #1A1305;
     font-size: 1.3em;
     font-weight: bold;
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 3px #fff;
 }
 
 #cs-one {
-    background: url('../img/cross.jpg') no-repeat center center fixed;
+    background: url('../img/beautiful-river.jpg') no-repeat center center fixed;
 }
 
-#meetings-map {
-    background-color: #c4c4c4;
-}
 
 
 

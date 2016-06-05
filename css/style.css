@@ -17,11 +17,6 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
-.table-centered {
-
-
-}
-
 .dark-h-tag {
     color: rgba(18, 18, 18, 0.9);
 }
@@ -109,7 +104,31 @@ li.nav-item a.nav-link {
     background: rgba(0, 0, 0, 0.7);
 }
 
-/* Navigation */
+/* Parralax */
+
+.content-space {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-space p {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000;
+}
+
+#cs-one {
+    background: url('../img/cross.jpg') no-repeat center center fixed;
+}
+
 #meetings-map {
     background-color: #c4c4c4;
 }

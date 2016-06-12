@@ -19,8 +19,17 @@ table {
     border-radius: 8px;
 }
 
+.page-title {
+    text-shadow: 2px 2px 3px #0b0b0b;
+}
+
+.card {
+    border-radius: 8px;
+}
+
 iframe {
     border-radius: 8px;
+    border: 5px solid #ebebeb;
 }
 
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
@@ -75,6 +84,10 @@ hr {
     margin-bottom: 40px;
 }
 
+.form-instructions {
+    font-size: .9em !important;
+}
+
 .btn-primary-outline {
     color: #fff;
 }
@@ -87,8 +100,25 @@ hr {
     text-shadow: 0 0 5px #f8ff92;
 }
 
+.fa {
+    text-shadow: 2px 2px 3px #000;
+}
 
+.fa-facebook-official {
+    color: #3b5998;
+}
 
+.fa-youtube-square {
+    color: #cc181e;
+}
+
+.fa-twitter-square {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color:  #9b6954;
+}
 /* Navigation */
 
 li.nav-item a.nav-link {
@@ -136,11 +166,17 @@ li.nav-item a.nav-link {
     padding-bottom: 100px;
 }
 
-.content-space p {
-    color: #1A1305;
+.content-well {
+    background-color: rgba(26, 19, 5, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.content-well p {
+    color: #fff;
     font-size: 1.3em;
     font-weight: bold;
-    text-shadow: 0 0 3px #fff;
+    text-shadow: 0 0 3px #000;
 }
 
 #cs-one {

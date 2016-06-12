@@ -9,11 +9,14 @@ body {
 }
 
 .prayer-card {
-    background-color: rgba(84, 110, 122, .4);
+    background-color: rgba(26, 19, 5, 0.8);
+    padding: 10px;
+    border-radius: 8px;
 }
 
 
 .form-input-data {
     color: rgba(255,255,255,.5);
 }
+
 

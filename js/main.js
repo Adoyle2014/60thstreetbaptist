@@ -1,13 +1,33 @@
 /**
  * Created by Adam on 6/2/2016.
  */
+$(window).on('load resize', function() {
+    var windowWidth = $(window).width();
+    if(windowWidth > 768) {
+
+        //Add Hover effect to menus
+        $('ul.nav li.dropdown').hover(function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+        });
+    } else {
+        $('ul.nav li.dropdown').unbind('mouseenter mouseleave');
+    }
+});
 
 $(document).ready(function() {
+    navHover();
     navbarChangeOnScroll();
     smoothScroll();
 
+
+
 });
 
+var navHover = function() {
+
+};
 
 var smoothScroll = function() {
     $('a[href*="#"]')

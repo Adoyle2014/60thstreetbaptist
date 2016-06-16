@@ -150,7 +150,7 @@ li.nav-item a.nav-link {
 
 /* Parralax */
 
-.content-block h1 {
+.content-block h1, .content-block p {
     color: #ebebeb;
 }
 
@@ -180,7 +180,16 @@ li.nav-item a.nav-link {
 }
 
 #cs-one {
-    background: url('../img/beautiful-river.jpg') no-repeat center center fixed;
+    background: url('../img/Cross-Easter.jpg') no-repeat center center fixed;
+}
+
+#cs-two {
+    background: url('../img/cross_horizon.jpg') no-repeat center center fixed;
+}
+
+#cs-three {
+    background: url('../img/wood_cross.jpg') no-repeat center center fixed;
+
 }
 
 
